@@ -75,22 +75,31 @@
 
 # ----------------------------------------------------------------------------------
 
-n1 = int(input("Enter first number: "))
-n2 = int(input("Enter second number: "))
-n3 = int(input("Enter third number: "))
+# n1 = int(input("Enter first number: "))
+# n2 = int(input("Enter second number: "))
+# n3 = int(input("Enter third number: "))
 
-avg = (n1 + n2 + n3)/3
-print("The average of the three numbers is:", avg)
+# avg = (n1 + n2 + n3)/3
+# print("The average of the three numbers is:", avg)
 
-if n1 >= n2 and n1 >= n3:
-    largest = n1
-    smallest = n2 if n2 <= n3 else n3
-elif n2 >= n1 and n2 >= n3:
-    largest = n2
-    smallest = n1 if n1 <= n3 else n3
-else:
-    largest = n3
-    smallest = n1 if n1 <= n2 else n2
+# if n1 >= n2 and n1 >= n3:
+#     largest = n1
+#     smallest = n2 if n2 <= n3 else n3
+# elif n2 >= n1 and n2 >= n3:
+#     largest = n2
+#     smallest = n1 if n1 <= n3 else n3
+# else:
+#     largest = n3
+#     smallest = n1 if n1 <= n2 else n2
 
-print("The largest number is:", largest)
-print("The smallest number is:", smallest)
+# print("The largest number is:", largest)
+# print("The smallest number is:", smallest)
+
+# ---------------------------------------------------------------------------------
+
+# for i in range(2, 21, 4):
+#     print(i)
+
+
+# for i in range(2, 21, 2):
+#     print(i)
