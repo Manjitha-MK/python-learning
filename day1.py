@@ -1,12 +1,12 @@
-name = "Manjitha"
-age = 25
-height = 180
-is_student = True
+# name = "Manjitha"
+# age = 25
+# height = 180
+# is_student = True
 
-print("Name:", name)
-print("Age:", age)
-print("Height:", height, "cm")
-print("Is student:", is_student)
+# print("Name:", name)
+# print("Age:", age)
+# print("Height:", height, "cm")
+# print("Is student:", is_student)
 
 # -----------------------------------------------------------------------------
 
@@ -45,13 +45,32 @@ print("Is student:", is_student)
 
 # --------------------------------------------------------------------------------
 
-n1 = int(input("Enter first number: "))
-n2 = int(input("Enter second number: "))
-n3 = int(input("Enter third number: "))
+# n1 = int(input("Enter first number: "))
+# n2 = int(input("Enter second number: "))
+# n3 = int(input("Enter third number: "))
 
-if n1 >= n2 and n1 >= n3:
-    print("The largest number is:", n1)
-elif n2 >= n1 and n2 >= n3:
-    print("The largest number is:", n2)
+# if n1 >= n2 and n1 >= n3:
+#     print("The largest number is:", n1)
+# elif n2 >= n1 and n2 >= n3:
+#     print("The largest number is:", n2)
+# else:
+#     print("The largest number is:", n3)
+
+# --------------------------------------------------------------------------------
+
+marks = int(input("Enter your marks: "))
+
+if marks < 0 or marks > 100:
+    print("Invalid marks")
+elif marks >= 75 and marks <= 100:
+    print("Grade: A")
+elif marks >= 65:
+    print("Grade: B")
+elif marks >= 55:
+    print("Grade: C")
+elif marks >= 45:
+    print("Grade: S")
 else:
-    print("The largest number is:", n3)
+    print("Grade: F")
+
+# ----------------------------------------------------------------------------------
