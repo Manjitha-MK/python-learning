@@ -97,7 +97,7 @@
 
 # ---------------------------------------------------------------------------------
 
-# for i in range(2, 21, 4):
+# for i in range(5, 51, 5):
 #     print(i)
 
 
@@ -118,16 +118,35 @@
 
 # ---------------------------------------------------------------------------------
 
-for i in range(1, 11):
-    if i == 8:
-        break
-    print(i)
+# for i in range(1, 11):
+#     if i == 8:
+#         break
+#     print(i)
 
 # ---------------------------------------------------------------------------------
 
-for i in range(1, 11):
-    if i ==7:
-        continue
-    print(i)
+# for i in range(1, 11):
+#     if i ==7:
+#         continue
+#     print(i)
 
 # ---------------------------------------------------------------------------------
+
+# n = int(input("Enter a number: "))
+# for i in range(1, n+1):
+#     if n % i == 0:
+#         print(i)
+
+# n = int(input("Enter a number: "))
+
+# for i in range(1, 11):
+#     result = n * i
+#     print(n, "X", i, "=", result)
+
+n = int(input("Enter a number: "))
+for i in range(1, n+1):
+    if i % 2 ==0:
+        print(i, "is even")
+    else:
+        print(i, "is odd")
+
