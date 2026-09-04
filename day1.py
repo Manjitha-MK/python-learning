@@ -1,28 +1,28 @@
-# name = "Manjitha"
-# age = 25
-# height = "180cm"
-# is_student = True
+name = "Manjitha"
+age = 25
+height = 180
+is_student = True
 
-# print("Name:", name)
-# print("Age:", age)
-# print("Height:", height)
-# print("Is student:", is_student)
+print("Name:", name)
+print("Age:", age)
+print("Height:", height, "cm")
+print("Is student:", is_student)
 
 # -----------------------------------------------------------------------------
 
-# N1 = int(input("Enter first number: "))
-# N2 = int(input("Enter second number: "))
+# n1 = int(input("Enter first number: "))
+# n2 = int(input("Enter second number: "))
 
-# addition = N1 + N2
+# addition = n1 + n2
 # print("Addition:", addition)
 
-# subtraction = N1 - N2
+# subtraction = n1 - n2
 # print("Subtraction:", subtraction)
 
-# multiplication = N1 * N2
+# multiplication = n1 * n2
 # print("Multiplication:", multiplication)
 
-# division = N1 / N2
+# division = n1 / n2
 # print("Division:", division)
 
 # ------------------------------------------------------------------------------
@@ -36,22 +36,22 @@
 
 # -------------------------------------------------------------------------------
 
-# X = int(input("Enter a number: "))
+# x = int(input("Enter a number: "))
 
-# if X % 2 == 0:
+# if x % 2 == 0:
 #     print("The number is even")
 # else:
 #     print("The number is odd")
 
 # --------------------------------------------------------------------------------
 
-N1 = int(input("Enter first number: "))
-N2 = int(input("Enter second number: "))
-N3 = int(input("Enter third number: "))
+n1 = int(input("Enter first number: "))
+n2 = int(input("Enter second number: "))
+n3 = int(input("Enter third number: "))
 
-if N1 >= N2 and N1 >= N3:
-    print("The largest number is:", N1)
-elif N2 >= N1 and N2 >= N3:
-    print("The largest number is:", N2)
+if n1 >= n2 and n1 >= n3:
+    print("The largest number is:", n1)
+elif n2 >= n1 and n2 >= n3:
+    print("The largest number is:", n2)
 else:
-    print("The largest number is:", N3)
+    print("The largest number is:", n3)
