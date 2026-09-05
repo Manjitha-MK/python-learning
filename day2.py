@@ -32,3 +32,13 @@
 # print(text.count("i"))
 # print(text.startswith("Python"))
 # print(text.endswith("easy"))
+
+# text = "apple, banana, cherry"
+
+# text1 = text.split()
+
+# print(text1)
+
+# text = "Python-Java-C++-C#"
+
+# print(text.split())
