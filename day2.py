@@ -67,5 +67,11 @@
 # .endswith()
 # .split
 
+# list[index]          → access an item
+# list[index] = value  → change an item
+# append(value)        → add to the end
+# insert(index, value) → add at a position
+# remove(value)        → remove by value
+# pop(index)           → remove by index
 
 
