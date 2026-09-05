@@ -134,21 +134,35 @@
 # print("Original numbers:", numbers)
 # print("Sorted numbers:", sorted_numbers)
 
+# n1 = int(input("Enter first number: "))
+# n2 = int(input("Enter second number: "))
+# n3 = int(input("Enter third number: "))
+# n4 = int(input("Enter fourth number: "))
+# n5 = int(input("Enter fifth number: "))
+
+# original = [n1, n2, n3, n4, n5]
+# print("Original:", original)
+# sorted_numbers = sorted(original)
+# print("Sorted:", sorted_numbers)
+
+# for number in original:
+#     if sorted_numbers[-1] == number:
+#         print("Largest number is:", number)
+#     elif sorted_numbers[0] == number:
+#         print("Smallest number is:", number)
+
 n1 = int(input("Enter first number: "))
 n2 = int(input("Enter second number: "))
 n3 = int(input("Enter third number: "))
 n4 = int(input("Enter fourth number: "))
 n5 = int(input("Enter fifth number: "))
 
-original = [n1, n2, n3, n4, n5]
-print("Original:", original)
-sorted_numbers = sorted(original)
-print("Sorted:", sorted_numbers)
+original_numbers = [n1, n2, n3, n4, n5]
+print("Original numbers:", original_numbers)
 
-for number in original:
-    if sorted_numbers[-1] == number:
-        print("Largest number is:", number)
-    elif sorted_numbers[0] == number:
-        print("Smallest number is:", number)
+sorted_numbers = sorted(original_numbers)
+print("Sorted numbers:", sorted_numbers)
 
-
+for number in sorted_numbers:
+    if number == sorted_numbers[-2]:
+        print("Second largest number is:", number)
