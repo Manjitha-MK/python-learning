@@ -165,10 +165,34 @@
 
 # print("Second largest number: ", sorted_numbers[-2])
 
-numbers = [45, 12, 78, 3, 29]
+# numbers = [45, 12, 78, 3, 29]
 
-sorted_numbers  = sorted(numbers)
+# sorted_numbers  = sorted(numbers)
 
-print("Original numbers:", numbers)
-print("Largest number: ", sorted_numbers[-1])
-print("Smallest number: ",sorted_numbers[0])
+# print("Original numbers:", numbers)
+# print("Largest number: ", sorted_numbers[-1])
+# print("Smallest number: ",sorted_numbers[0])
+
+# numbers = [10, 20, 30, 40, 50]
+
+# for index, number in enumerate(numbers):
+#     if number % 2 == 0:
+#         numbers = number * 2
+
+#         print(numbers)
+
+
+# numbers = [10, 20, 30]
+
+# for number in numbers:
+#     if number > 10:
+#         print(numbers)
+
+numbers = [5, 10, 15, 20, 25, 30]
+
+for index, number in enumerate(numbers):
+    if number % 2 == 0:
+        numbers[index] = number * 2
+
+print(numbers)
+       
