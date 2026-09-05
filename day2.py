@@ -151,16 +151,23 @@
 #     elif sorted_numbers[0] == number:
 #         print("Smallest number is:", number)
 
-n1 = int(input("Enter first number: "))
-n2 = int(input("Enter second number: "))
-n3 = int(input("Enter third number: "))
-n4 = int(input("Enter fourth number: "))
-n5 = int(input("Enter fifth number: "))
+# n1 = int(input("Enter first number: "))
+# n2 = int(input("Enter second number: "))
+# n3 = int(input("Enter third number: "))
+# n4 = int(input("Enter fourth number: "))
+# n5 = int(input("Enter fifth number: "))
 
-original_numbers = [n1, n2, n3, n4, n5]
-print("Original numbers:", original_numbers)
+# original_numbers = [n1, n2, n3, n4, n5]
+# print("Original numbers:", original_numbers)
 
-sorted_numbers = sorted(original_numbers)
-print("Sorted numbers:", sorted_numbers)
+# sorted_numbers = sorted(original_numbers)
+# print("Sorted numbers:", sorted_numbers)
 
-print("Second largest number: ", sorted_numbers[-2])
+# print("Second largest number: ", sorted_numbers[-2])
+
+numbers = [45, 12, 78, 3, 29]
+
+sorted_numbers  = sorted(numbers)
+
+print("Original numbers:", numbers)
+print("Smallest number: ",sorted_numbers[0])
