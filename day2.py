@@ -1,0 +1,24 @@
+# word = "I am learning python"
+
+# print(word.find("learning"))
+
+# name = "  manjitha kaluarachchi    "
+
+# name = name.strip()
+# name = name.title()
+
+# print("Name:",name)
+# print("Length of name:", len(name))
+
+name = input("Enter Your Name: ")
+city = input("Enter Your City: ")
+
+name = name.strip()
+name = name.title()
+city = city.strip()
+city = city.title()
+
+print("Name:", name)
+print("City:", city)
+print("Name length:", len(name))
+print("City length:", len(city))
