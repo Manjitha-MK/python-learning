@@ -87,3 +87,53 @@
 #     if number % 2 == 0 and number > 20:
 #         print(number)
 
+# numbers = [10, 15, 20, 25, 30, 35]
+
+# even_numbers = []
+
+# for number in numbers:
+#     if number % 2 == 0:
+#         even_numbers.append(number)
+
+# print(even_numbers)
+
+# numbers = [10, 15, 20, 25, 30, 35]
+# list=[]
+
+# for number in numbers:
+#     if number > 20:
+#         list.append(number)
+# print(list)
+
+# numbers = [10, 15, 20, 25, 30, 35, 40]
+
+# odd_numbers = []
+
+# for number in numbers:
+#     if number % 2 == 1:
+#         odd_numbers.append(number)
+# print(odd_numbers)
+
+
+# numbers = [10, 15, 20, 25, 30, 35, 40, 45, 50]
+
+# greter_than_20_and_even_numbers = []
+
+# for number in numbers:
+#     if number % 2 ==0 and number > 20:
+#         greter_than_20_and_even_numbers.append(number)  
+# print(greter_than_20_and_even_numbers)
+
+# numbers = [1,4,3,2,6,5,8]
+# numbers.sort()
+# print("Sorted numbers:", numbers)
+
+# numbers = [1,4,3,2,6,5,8]
+
+# sorted_numbers = sorted(numbers)
+# print("Original numbers:", numbers)
+# print("Sorted numbers:", sorted_numbers)
+
+
+
+
