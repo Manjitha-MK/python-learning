@@ -10,15 +10,25 @@
 # print("Name:",name)
 # print("Length of name:", len(name))
 
-name = input("Enter Your Name: ")
-city = input("Enter Your City: ")
+# name = input("Enter Your Name: ")
+# city = input("Enter Your City: ")
 
-name = name.strip()
-name = name.title()
-city = city.strip()
-city = city.title()
+# name = name.strip()
+# name = name.title()
+# city = city.strip()
+# city = city.title()
 
-print("Name:", name)
-print("City:", city)
-print("Name length:", len(name))
-print("City length:", len(city))
+# print("Name:", name)
+# print("City:", city)
+# print("Name length:", len(name))
+# print("City length:", len(city))
+
+# text = "Python is easy"
+
+# print(text.upper())
+# print(text.lower())
+# print(text.title())
+# print(len(text))
+# print(text.count("i"))
+# print(text.startswith("Python"))
+# print(text.endswith("easy"))
