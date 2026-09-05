@@ -42,3 +42,30 @@
 # text = "Python-Java-C++-C#"
 
 # print(text.split())
+
+# sent = input("Enter a sentence: ")
+
+# sent= sent.strip()
+
+# print("Uppercase sentence:", sent.upper())
+# print("Characters:", len(sent))
+# print("Words:", len(sent.split()))
+# print("Count of 'PYTHON':", sent.count("Python"))
+
+# Indexing
+# Slicing
+# .upper()
+# .lower()
+# .capitalize()
+# .title()
+# .strip()
+# .replace()
+# .find()
+# .len()
+# .count()
+# .startswith()
+# .endswith()
+# .split
+
+
+
