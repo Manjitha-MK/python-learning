@@ -163,6 +163,4 @@ print("Original numbers:", original_numbers)
 sorted_numbers = sorted(original_numbers)
 print("Sorted numbers:", sorted_numbers)
 
-for number in sorted_numbers:
-    if number == sorted_numbers[-2]:
-        print("Second largest number is:", number)
+print("Second largest number: ", sorted_numbers[-2])
