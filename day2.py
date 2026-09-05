@@ -75,3 +75,15 @@
 # pop(index)           → remove by index
 
 
+# numbers = [10, 15, 20, 25, 30, 35]
+
+# for number in numbers:
+#     if number > 20:
+#         print(number)
+
+# numbers = [10, 15, 20, 25, 30, 35, 40]
+
+# for number in numbers:
+#     if number % 2 == 0 and number > 20:
+#         print(number)
+
