@@ -170,4 +170,5 @@ numbers = [45, 12, 78, 3, 29]
 sorted_numbers  = sorted(numbers)
 
 print("Original numbers:", numbers)
+print("Largest number: ", sorted_numbers[-1])
 print("Smallest number: ",sorted_numbers[0])
