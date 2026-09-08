@@ -23,3 +23,4 @@ fruits.append("mango")
 
 print(fruits)
 
+# list can be change -> fruits[0] = grapes
