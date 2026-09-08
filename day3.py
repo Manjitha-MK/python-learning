@@ -11,4 +11,15 @@ print("Unique numbers:", sorted_unique_numbers)
 for number in sorted_unique_numbers:
     if number > 20:
         print(number)
-        
+
+# 1. List []
+
+fruits = ["apple", "banana", "apple", "orange"]
+
+print(fruits)
+print(fruits[1])
+
+fruits.append("mango")
+
+print(fruits)
+
