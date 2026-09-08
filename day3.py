@@ -59,16 +59,32 @@
 # print(student["age"])
 # print(student["city"])
 
+# students = {
+#     "Kamal": 75,
+#     "Nimal": 45,
+#     "Saman": 82
+# }
+
+# passed_students = {}
+
+# for name, marks in students.items():
+#     if marks > 50:
+#         passed_students[name] = marks
+
+# print("Passed students:", passed_students)
+
 students = {
     "Kamal": 75,
     "Nimal": 45,
-    "Saman": 82
+    "Saman": 82,
+    "Amal": 68
 }
 
 passed_students = {}
 
 for name, marks in students.items():
-    if marks > 50:
+    if marks > 70:
         passed_students[name] = marks
 
-print("Passed students:", passed_students)
+print(passed_students)
+
