@@ -46,15 +46,29 @@
 
 # # The duplicates are removed. Doesn't work: fruits[0]   # ❌ because set is unordered and doesn't support indexing.
 
-student = {
-    "name": "Kamal",
-    "age": 22,
-    "course": "AI"
+# student = {
+#     "name": "Kamal",
+#     "age": 22,
+#     "course": "AI"
+# }
+
+# student["age"] = 23
+# student["city"] = "Kandy"
+
+# print(student)
+# print(student["age"])
+# print(student["city"])
+
+students = {
+    "Kamal": 75,
+    "Nimal": 45,
+    "Saman": 82
 }
 
-student["age"] = 23
-student["city"] = "Kandy"
+passed_students = {}
 
-print(student)
-print(student["age"])
-print(student["city"])
+for name, marks in students.items():
+    if marks > 50:
+        passed_students[name] = marks
+
+print("Passed students:", passed_students)
