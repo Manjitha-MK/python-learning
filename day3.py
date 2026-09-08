@@ -24,3 +24,13 @@ fruits.append("mango")
 print(fruits)
 
 # list can be change -> fruits[0] = grapes
+
+# 2. Tuple ()
+
+fruits = ("apple", "banana", "apple", "orange")
+
+print(fruits)
+print(fruits[1])
+print(fruits[-1])
+
+# Tuple is useful when the data should stay fixed. Tuple can't be change -> fruits[0] = grapes XXX
