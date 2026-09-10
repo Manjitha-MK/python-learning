@@ -159,6 +159,21 @@
 #         print(name, students[name])
 
 
+# students = {
+#     "Kamal": 75,
+#     "Nimal": 45,
+#     "Saman": 82,
+#     "Amal": 68
+# }
+
+# high_score = {}
+
+# for name in students:
+#     if students[name] > 70:
+#         high_score[name] = students[name]
+
+# print(high_score) 
+
 students = {
     "Kamal": 75,
     "Nimal": 45,
@@ -166,10 +181,16 @@ students = {
     "Amal": 68
 }
 
+passed = {}
 high_score = {}
 
-for name in students:
-    if students[name] > 70:
-        high_score[name] = students[name]
+for name, mark in students.items():
+    if mark >= 70:
+        high_score[name] = mark
+    if mark >= 50:
+        passed[name] = mark
 
-print(high_score) 
+print("Passed =", passed)
+print("High Score =", high_score)
+
+    
