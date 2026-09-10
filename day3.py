@@ -157,3 +157,19 @@
 # for name in students:
 #     if students[name] >= 70:
 #         print(name, students[name])
+
+
+students = {
+    "Kamal": 75,
+    "Nimal": 45,
+    "Saman": 82,
+    "Amal": 68
+}
+
+high_score = {}
+
+for name in students:
+    if students[name] > 70:
+        high_score[name] = students[name]
+
+print(high_score) 
