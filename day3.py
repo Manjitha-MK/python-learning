@@ -174,23 +174,41 @@
 
 # print(high_score) 
 
+# students = {
+#     "Kamal": 75,
+#     "Nimal": 45,
+#     "Saman": 82,
+#     "Amal": 68
+# }
+
+# passed = {}
+# high_score = {}
+
+# for name, mark in students.items():
+#     if mark >= 70:
+#         high_score[name] = mark
+#     if mark >= 50:
+#         passed[name] = mark
+
+# print("Passed =", passed)
+# print("High Score =", high_score)
+
+
 students = {
-    "Kamal": 75,
-    "Nimal": 45,
-    "Saman": 82,
-    "Amal": 68
+    "Kamal": {
+        "age": 23,
+        "marks": 75
+    },
+    "Nimal": {
+        "age": 22,
+        "marks": 45
+    },
+    "Saman": {
+        "age": 24,
+        "marks": 82
+    }
 }
 
-passed = {}
-high_score = {}
-
-for name, mark in students.items():
-    if mark >= 70:
-        high_score[name] = mark
-    if mark >= 50:
-        passed[name] = mark
-
-print("Passed =", passed)
-print("High Score =", high_score)
-
+for name, details in students.items():
+    print(name, details["marks"])
     
