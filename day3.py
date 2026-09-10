@@ -246,11 +246,26 @@ students = {
     "Amal": {"age": 21, "marks": 90}
 }
 
-total = 0
+# total = 0
+
+# for _, details in students.items():
+#     total += details["marks"]
+# print(total)
+
+# avg = total / len(students)
+# print("Average marks: ",avg)
+max = 0
+top_student_name = {}
 
 for name, details in students.items():
-    total += details["marks"]
-print(total)
+ 
+    if details["marks"] > max:
+        max = details["marks"]
+        top_student_name = name
 
-avg = total / len(students)
-print("Average marks: ",avg)
+print("Top students is:",top_student_name)
+print("Top mark is:", max)
+
+
+
+
