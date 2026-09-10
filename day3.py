@@ -89,21 +89,45 @@
 # print(passed_students)
 
 
-students = {
-    "Kamal": 75,
-    "Nimal": 45,
-    "Saman": 82,
-    "Amal": 68
-}
+# students = {
+#     "Kamal": 75,
+#     "Nimal": 45,
+#     "Saman": 82,
+#     "Amal": 68
+# }
 
-passed_students = {}
-failed_students = {}
+# passed_students = {}
+# failed_students = {}
 
-for name, marks in students.items():
-    if marks >= 50:
-        passed_students[name] = marks
-    else:
-        failed_students[name] = marks
+# for name, marks in students.items():
+#     if marks >= 50:
+#         passed_students[name] = marks
+#     else:
+#         failed_students[name] = marks
 
-print("Passed students:", passed_students)
-print("Failed students:", failed_students)
+# print("Passed students:", passed_students)
+# print("Failed students:", failed_students)
+
+# students = {
+#     "Kamal": 75,
+#     "Nimal": 45,
+#     "Saman": 82,
+#     "Amal": 68,
+#     "Saduni": 35
+# }
+
+# print(students)
+
+# passed_students = {}
+# failed_students = {}
+
+# for names, marks in students.items():
+#     if marks >= 50 :
+#         # print("Passed:",names)
+#         passed_students[names] = marks
+#     else:
+#         # print("Failed:",names)
+#         failed_students[names] = marks
+
+# print("Passed students:", passed_students)
+# print("Failed students:", failed_students)
