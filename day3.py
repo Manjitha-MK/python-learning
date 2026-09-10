@@ -131,3 +131,29 @@
 
 # print("Passed students:", passed_students)
 # print("Failed students:", failed_students)
+
+# student = {
+#     "name": "Kamal",
+#     "age": 23,
+#     "course": "AI"
+# }
+
+# student.update({
+#     "age": 24,
+#     "city": "Kandy"
+# })
+
+# student.pop("course")
+
+# print(student)
+
+# students = {
+#     "Kamal": 75,
+#     "Nimal": 45,
+#     "Saman": 82,
+#     "Amal": 68
+# }
+
+# for name in students:
+#     if students[name] >= 70:
+#         print(name, students[name])
