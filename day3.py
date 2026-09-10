@@ -194,6 +194,24 @@
 # print("High Score =", high_score)
 
 
+# students = {
+#     "Kamal": {
+#         "age": 23,
+#         "marks": 75
+#     },
+#     "Nimal": {
+#         "age": 22,
+#         "marks": 45
+#     },
+#     "Saman": {
+#         "age": 24,
+#         "marks": 82
+#     }
+# }
+
+# for name, details in students.items():
+#     print(name, details["marks"])
+
 students = {
     "Kamal": {
         "age": 23,
@@ -206,9 +224,18 @@ students = {
     "Saman": {
         "age": 24,
         "marks": 82
+    },
+    "Amal": {
+        "age": 21,
+        "marks": 90
     }
 }
 
+top_score = {}
+
 for name, details in students.items():
-    print(name, details["marks"])
+    if details["marks"] >= 80:
+        top_score[name] = details
+
+print(top_score)
     
