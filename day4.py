@@ -65,4 +65,16 @@ def find_largest(numbers):
 print(find_largest(numbers))
 
         
+numbers = [25, 10, 40, 5, 30]
+
+def find_smalest(numbers):
+    smallest = numbers[0]
+
+    for number in numbers:
+        if number < smallest:
+            smallest = number
+
+    return smallest
+
+print("Smallest number is:", find_smalest(numbers))
 
