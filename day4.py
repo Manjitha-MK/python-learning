@@ -32,10 +32,11 @@ y= square(3)
 print("add square value:",x + y)
 
 def is_even(number):
-    if number % 2 == 0:
-        return True
-    else:
-        return False
+    # if number % 2 == 0:
+    #     return True
+    # else:
+    #     return False
+    return number % 2 == 0
 
 print(is_even(22))
 print(is_even(13))
