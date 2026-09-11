@@ -54,7 +54,7 @@ numbers = [10, 25, 7, 42, 18]
 
 
 def find_largest(numbers):
-    largest = 0
+    largest = numbers[0]
 
     for number in numbers:
         if number > largest:
