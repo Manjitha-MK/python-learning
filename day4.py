@@ -78,15 +78,47 @@
 
 # print("Smallest number is:", find_smalest(numbers))
 
-numbers = [10, 15, 20, 25, 30, 35]
+# numbers = [10, 15, 20, 25, 30, 35]
 
-def count_even(numbers):
-    count = 0
+# def count_even(numbers):
+#     count = 0
+
+#     for number in numbers:
+#         if number % 2 == 0:
+#             count = count + 1
+
+#     return count
+    
+
+# print(count_even(numbers))
+
+# numbers = [10, 15, 20, 25, 30, 35]
+
+# def sum_even_numbers(numbers):
+#     sum = 0
+#     for number in numbers:
+#         if number % 2 == 0:
+#             sum += number
+#     return sum
+
+# print(sum_even_numbers(numbers))
+
+numbers = [10, 15, 20, 25, 30, 35,23]
+
+def count(numbers):
+    count_odd = 0
+    count_even = 0
+
     for number in numbers:
         if number % 2 == 0:
-            count = count + 1
+            count_even += 1
+        else:
+            count_odd += 1
 
-    return count
+    return count_even, count_odd
 
-print(count_even(numbers))
+even, odd = count(numbers)
+
+print("Even:", even)
+print("Odd:", odd)
 
