@@ -22,3 +22,11 @@ results = multiply(10, 2)
 new_results = results * 2
 
 print(new_results)
+
+def square(number):
+    return number * number
+
+x = square(5)
+y= square(3)
+
+print("add square value:",x + y)
