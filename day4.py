@@ -14,3 +14,11 @@ def add(a, b):
 
 add(10, 20)
 add(39, 2)
+
+def multiply(x, y):
+    return x * y
+
+results = multiply(10, 2)
+new_results = results * 2
+
+print(new_results)
