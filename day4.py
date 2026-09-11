@@ -50,31 +50,43 @@
 # print(find_max(10, 20))
 # print(find_max(29, 30))
 
-numbers = [10, 25, 7, 42, 18]
+# numbers = [10, 25, 7, 42, 18]
 
 
-def find_largest(numbers):
-    largest = numbers[0]
+# def find_largest(numbers):
+#     largest = numbers[0]
 
-    for number in numbers:
-        if number > largest:
-            largest = number
+#     for number in numbers:
+#         if number > largest:
+#             largest = number
 
-    return largest
+#     return largest
         
-print(find_largest(numbers))
+# print(find_largest(numbers))
 
         
-numbers = [25, 10, 40, 5, 30]
+# numbers = [25, 10, 40, 5, 30]
 
-def find_smalest(numbers):
-    smallest = numbers[0]
+# def find_smalest(numbers):
+#     smallest = numbers[0]
 
+#     for number in numbers:
+#         if number < smallest:
+#             smallest = number
+
+#     return smallest
+
+# print("Smallest number is:", find_smalest(numbers))
+
+numbers = [10, 15, 20, 25, 30, 35]
+
+def count_even(numbers):
+    count = 0
     for number in numbers:
-        if number < smallest:
-            smallest = number
+        if number % 2 == 0:
+            count = count + 1
 
-    return smallest
+    return count
 
-print("Smallest number is:", find_smalest(numbers))
+print(count_even(numbers))
 
