@@ -214,6 +214,25 @@
 # print("High marks:", h_mark)
 
 
+# students = {
+#     "Kamal": 75,
+#     "Nimal": 45,
+#     "Saman": 82,
+#     "Amal": 68,
+#     "Saduni": 35
+# }
+
+# def count_passed(students):
+#     count = 0
+
+#     for _,mark in students.items():
+#         if mark >= 50:
+#             count = count + 1
+
+#     return count
+
+# print(count_passed(students))
+
 students = {
     "Kamal": 75,
     "Nimal": 45,
@@ -222,14 +241,14 @@ students = {
     "Saduni": 35
 }
 
-def count_passed(students):
-    count = 0
+def get_passed_students(students):
+    passed = {}
 
-    for _,mark in students.items():
+    for name, mark in students.items():
         if mark >= 50:
-            count = count + 1
+            passed[name] = mark
+    return passed
 
-    return count
-
-print(count_passed(students))
+print(get_passed_students(students))
+    
         
