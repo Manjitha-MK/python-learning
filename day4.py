@@ -190,27 +190,46 @@
 
 # print(find_even_sum(numbers))
 
+# students = {
+#     "Kamal": 75,
+#     "Nimal": 45,
+#     "Saman": 82,
+#     "Amal": 90
+# }
+
+# def find_top_student(students):
+#     high_mark = 0
+#     top_student_name = {}
+
+#     for name, mark in students.items():
+#         if mark > high_mark:
+#             high_mark = mark
+#             top_student_name = name
+
+#     return high_mark, top_student_name
+
+# h_mark,t_st_name =find_top_student(students)
+
+# print("Name of student:", t_st_name)
+# print("High marks:", h_mark)
+
+
 students = {
     "Kamal": 75,
     "Nimal": 45,
     "Saman": 82,
-    "Amal": 90
+    "Amal": 68,
+    "Saduni": 35
 }
 
-def find_top_student(students):
-    high_mark = 0
-    top_student_name = {}
+def count_passed(students):
+    count = 0
 
-    for name, mark in students.items():
-        if mark > high_mark:
-            high_mark = mark
-            top_student_name = name
+    for _,mark in students.items():
+        if mark >= 50:
+            count = count + 1
 
-    return high_mark, top_student_name
+    return count
 
-h_mark,t_st_name =find_top_student(students)
-
-print("Name of student:", t_st_name)
-print("High marks:", h_mark)
-
-
+print(count_passed(students))
+        
