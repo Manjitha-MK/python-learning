@@ -103,22 +103,59 @@
 
 # print(sum_even_numbers(numbers))
 
-numbers = [10, 15, 20, 25, 30, 35,23]
+# numbers = [10, 15, 20, 25, 30, 35,23]
 
-def count(numbers):
-    count_odd = 0
-    count_even = 0
+# def count(numbers):
+#     count_odd = 0
+#     count_even = 0
 
+#     for number in numbers:
+#         if number % 2 == 0:
+#             count_even += 1
+#         else:
+#             count_odd += 1
+
+#     return count_even, count_odd
+
+# even, odd = count(numbers)
+
+# print("Even:", even)
+# print("Odd:", odd)
+
+
+# numbers = [10, 15, 20, 25, 30, 35]
+
+# def get_even_numbers(numbers):
+#     even_numbers = []
+#     for number in numbers:
+#         if number % 2 == 0:
+#             even_numbers.append(number)
+
+#     return even_numbers     
+
+# print(get_even_numbers(numbers))
+
+# def add(a,c):
+#     total = a + c
+#     return total 
+
+# results = add(10, 20)
+
+# new_results = results * 2
+
+# print(results)
+# print(new_results)
+
+numbers = [10, 15, 20, 25, 30, 35]
+
+def get_odd_numbers(numbers):
+    odd_numbers = []
     for number in numbers:
-        if number % 2 == 0:
-            count_even += 1
-        else:
-            count_odd += 1
+        if number % 2 == 1:
+            odd_numbers.append(number)
 
-    return count_even, count_odd
+    return odd_numbers
 
-even, odd = count(numbers)
+result = get_odd_numbers(numbers)
 
-print("Even:", even)
-print("Odd:", odd)
-
+print(result)
