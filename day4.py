@@ -179,15 +179,38 @@
 # print("Odd:",odd)
 # print("Even:",even)
 
-numbers = [5, 10, 15, 20, 25, 30]
+# numbers = [5, 10, 15, 20, 25, 30]
 
-def find_even_sum(numbers):
-    total = 0
-    for number in numbers:
-        if number % 2 == 0:
-            total = total + number
-    return total
+# def find_even_sum(numbers):
+#     total = 0
+#     for number in numbers:
+#         if number % 2 == 0:
+#             total = total + number
+#     return total
 
-print(find_even_sum(numbers))
+# print(find_even_sum(numbers))
+
+students = {
+    "Kamal": 75,
+    "Nimal": 45,
+    "Saman": 82,
+    "Amal": 90
+}
+
+def find_top_student(students):
+    high_mark = 0
+    top_student_name = {}
+
+    for name, mark in students.items():
+        if mark > high_mark:
+            high_mark = mark
+            top_student_name = name
+
+    return high_mark, top_student_name
+
+h_mark,t_st_name =find_top_student(students)
+
+print("Name of student:", t_st_name)
+print("High marks:", h_mark)
 
 

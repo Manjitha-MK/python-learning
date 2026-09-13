@@ -174,24 +174,24 @@
 
 # print(high_score) 
 
-# students = {
-#     "Kamal": 75,
-#     "Nimal": 45,
-#     "Saman": 82,
-#     "Amal": 68
-# }
+students = {
+    "Kamal": 75,
+    "Nimal": 45,
+    "Saman": 82,
+    "Amal": 68
+}
 
-# passed = {}
-# high_score = {}
+passed = {}
+high_score = {}
 
-# for name, mark in students.items():
-#     if mark >= 70:
-#         high_score[name] = mark
-#     if mark >= 50:
-#         passed[name] = mark
+for name, mark in students.items():
+    if mark >= 70:
+        high_score[name] = mark
+    if mark >= 50:
+        passed[name] = mark
 
-# print("Passed =", passed)
-# print("High Score =", high_score)
+print("Passed =", passed)
+print("High Score =", high_score)
 
 
 # students = {
@@ -239,12 +239,12 @@
 
 # print(top_score)
     
-students = {
-    "Kamal": {"age": 23, "marks": 75},
-    "Nimal": {"age": 22, "marks": 45},
-    "Saman": {"age": 24, "marks": 82},
-    "Amal": {"age": 21, "marks": 90}
-}
+# students = {
+#     "Kamal": {"age": 23, "marks": 75},
+#     "Nimal": {"age": 22, "marks": 45},
+#     "Saman": {"age": 24, "marks": 82},
+#     "Amal": {"age": 21, "marks": 90}
+# }
 
 # total = 0
 
@@ -254,17 +254,17 @@ students = {
 
 # avg = total / len(students)
 # print("Average marks: ",avg)
-max = 0
-top_student_name = {}
+# max = 0
+# top_student_name = {}
 
-for name, details in students.items():
+# for name, details in students.items():
  
-    if details["marks"] > max:
-        max = details["marks"]
-        top_student_name = name
+#     if details["marks"] > max:
+#         max = details["marks"]
+#         top_student_name = name
 
-print("Top students is:",top_student_name)
-print("Top mark is:", max)
+# print("Top students is:",top_student_name)
+# print("Top mark is:", max)
 
 
 
