@@ -146,16 +146,35 @@
 # print(results)
 # print(new_results)
 
+# numbers = [10, 15, 20, 25, 30, 35]
+
+# def get_odd_numbers(numbers):
+#     odd_numbers = []
+#     for number in numbers:
+#         if number % 2 == 1:
+#             odd_numbers.append(number)
+
+#     return odd_numbers
+
+# result = get_odd_numbers(numbers)
+
+# print(result)
+
 numbers = [10, 15, 20, 25, 30, 35]
 
-def get_odd_numbers(numbers):
+def seperate_numbers(numbers):
     odd_numbers = []
+    even_number = []
+
     for number in numbers:
-        if number % 2 == 1:
+        if number % 2 != 0:
             odd_numbers.append(number)
+        else:
+            even_number.append(number)
 
-    return odd_numbers
+    return odd_numbers, even_number
 
-result = get_odd_numbers(numbers)
+odd, even = seperate_numbers(numbers)
 
-print(result)
+print("Odd:",odd)
+print("Even:",even)
