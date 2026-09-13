@@ -160,21 +160,34 @@
 
 # print(result)
 
-numbers = [10, 15, 20, 25, 30, 35]
+# numbers = [10, 15, 20, 25, 30, 35]
 
-def seperate_numbers(numbers):
-    odd_numbers = []
-    even_number = []
+# def seperate_numbers(numbers):
+#     odd_numbers = []
+#     even_number = []
 
+#     for number in numbers:
+#         if number % 2 != 0:
+#             odd_numbers.append(number)
+#         else:
+#             even_number.append(number)
+
+#     return odd_numbers, even_number
+
+# odd, even = seperate_numbers(numbers)
+
+# print("Odd:",odd)
+# print("Even:",even)
+
+numbers = [5, 10, 15, 20, 25, 30]
+
+def find_even_sum(numbers):
+    total = 0
     for number in numbers:
-        if number % 2 != 0:
-            odd_numbers.append(number)
-        else:
-            even_number.append(number)
+        if number % 2 == 0:
+            total = total + number
+    return total
 
-    return odd_numbers, even_number
+print(find_even_sum(numbers))
 
-odd, even = seperate_numbers(numbers)
 
-print("Odd:",odd)
-print("Even:",even)
